@@ -1,0 +1,16 @@
+.logo-container {
+    text-align: center; /* Center-align the contents */
+  }
+  
+  .logo-img {
+    display: block; /* Make the logo image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    /* Additional styling for the logo image as needed */
+  }
+  
+  .navbar-brand {
+    display: block;
+    text-align: center;
+    /* Additional styling for the anchor element as needed */
+  }
+  
