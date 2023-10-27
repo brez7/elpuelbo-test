@@ -1,83 +1,86 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    @@include("partials/head.html", {
-      "css": "theme",
-      "title": "Incline | Welcome"
-    })
-  </head>
-  <body>
 
-    <!-- NAVBAR
+<head>
+  @@include("partials/head.html", {
+  "css": "theme",
+  "title": "Incline | Welcome"
+  })
+</head>
+
+<body>
+
+  <!-- NAVBAR
     ================================================= texts -->
-    @@include("partials/navbar.html", {
-      "togglable": true,
-      "type": "dark",
-      "page": "index.html",
-      "button": {
-        "url": "https://themes.getbootstrap.com/product/incline-landing-page-set/",
-        "text": "Purchase now"
-      }
-    })
+  @@include("partials/navbar.html", {
+  "togglable": true,
+  "type": "dark",
+  "page": "index.html",
+  "button": {
+  "url": "https://themes.getbootstrap.com/product/incline-landing-page-set/",
+  "text": "Purchase now"
+  }
+  })
 
-    <!-- HERO
+  <!-- HERO
     ================================================== -->
-    <section class="section section-top section-full">
+  <section class="section section-top section-full">
 
-      <!-- Cover -->
-      <div class="bg-cover" style="background-image: url(assets/img/42.jpg);"></div>
+    <!-- Cover -->
+    <div class="bg-cover" style="background-image: url(assets/img/42.jpg);"></div>
 
-      <!-- Overlay -->
-      <div class="bg-overlay"></div>
+    <!-- Overlay -->
+    <div class="bg-overlay"></div>
 
-      <!-- Triangles -->
-      <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
-      <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+    <!-- Triangles -->
+    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
 
-      <!-- Content -->
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-8 col-lg-7">
+    <!-- Content -->
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8 col-lg-7">
 
-            <!-- Preheading -->
-            <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
-              by Simpleqode
-            </p>
-            
-            <!-- Heading -->
-            <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-              Mexican Food at it's Best
-            </h1>
 
-            <!-- Subheading -->
-            <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-              Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
-            </p>
+          <!-- Heading -->
+          <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp"
+            data-animation-order="1" data-animation-trigger="load">
+            HOME OF THE BEST FISH TACOS
+          </h1>
 
-            <!-- Button -->
-            <p class="text-center mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-              <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
-                Purchase now
-              </a>
-            </p>
+          <!-- Subheading -->
+          <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp"
+            data-animation-order="2" data-animation-trigger="load">
+            Best Yet Mexican Food in San Diego
+          </p>
 
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+          <!-- Button -->
+          <p class="text-center mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3"
+            data-animation-trigger="load">
+            <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank"
+              class="btn btn-outline-primary text-white">
+              Order Now
+            </a>
+          </p>
 
-    </section>
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
 
-    <!-- SECTIONS
+  </section>
+
+  <!-- SECTIONS
     ================================================== -->
-    @@include("partials/pages/welcome.html")
+  @@include("partials/pages/welcome.html")
 
-    <!-- FOOTER
+  <!-- FOOTER
     ================================================== -->
-    @@include("partials/footer.html")
+  @@include("partials/footer.html")
 
-    <!-- JAVASCRIPT
+  <!-- JAVASCRIPT
     ================================================== -->
-    @@include("partials/scripts.html")
+  @@include("partials/scripts.html")
 
-  </body>
+</body>
+
 </html>
