@@ -26,6 +26,8 @@
 
 <!-- Theme CSS -->
 <link rel="stylesheet" href="assets/css/theme.min.css">
+<!-- custom css -->
+<link rel="stylesheet" href="assets/css/custom.css">
 
 <title>Incline | Theme components</title>
   </head>
@@ -33,7 +35,9 @@
 
     <!-- NAVBAR
     ================================================= -->
-    <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+    
+
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
   <div class="container">
 
     <!-- Brand -->
@@ -41,9 +45,10 @@
       <svg class="navbar-brand-svg" viewBox="0 0 245 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <path d="M0 0 L 20 10 L 0 20 Z" class="navbar-brand-svg-i" fill="currentColor"></path>
         <path d="M0 30 L 20 40 L 0 50 Z M20 45 L 0 55 L 20 65 Z M0 60 L 20 70 L 0 80 Z" fill="currentColor"></path>
-        <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">incline.</text>
+        <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">incline</text>
       </svg>
     </a>
+
   
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -234,14 +239,22 @@
         </li>
         <li class="nav-item">
           <a href="[object Object].url" target="_blank" class="nav-link">
-            [object Object].text
+           Fresh Mexican Food
           </a>
         </li>
+        <script id="button-template" type="text/x-handlebars-template">
+  <a href="{{button.url}}" target="_blank" class="nav-link">
+    {{button.text}}
+  </a>
+</script>
+
       </ul>
 
     </div> <!-- / .navbar-collapse -->
   
   </div> <!-- / .container -->    
+
+  
 </nav>
 
     <!-- BREADCRUMB

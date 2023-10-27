@@ -29,6 +29,7 @@
     "flickity": "^2.2.1",
     "flickity-fade": "^1.0.0",
     "fullpage.js": "^4.0.20",
+    "gulp-sass": "^5.1.0",
     "highlightjs": "^9.16.2",
     "jquery": "^3.4.1",
     "jquery-parallax.js": "^1.5.0",
